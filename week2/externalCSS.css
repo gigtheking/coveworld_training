@@ -1,0 +1,30 @@
+div {
+    background-color: orange;
+    width: 200px;
+    /* margin: auto; */
+  }
+  
+  .container {
+    background-color: purple;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73ad21;
+    padding: 10px;
+  }
+
+  
+  .font {
+    font-size: 30px;
+  }
+  
+  .color {
+    color: yellow;
+  }
+  
+  .second {
+    background-color: pink;
+    
+  }
+  body {
+    background-color: black;
+  }
