@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+div p:first-child{
+    background-color: red;
+    position: absolute;
+    right: 0%;
+
+}
+div p:nth-child(2){
+    background-color: yellow;
+    position: absolute;
+    left: 0%;
+    top: 30%;
+
+}
+div p:nth-child(3){
+    background-color: green;
+    position: absolute;
+    top: 0%;
+    z-index: -3;
+
+}
+div p:nth-child(4){
+    background-color: indigo;
+    position: absolute;
+    bottom: 0%;
+
+}
+
+div p:last-child(){
+    background-color: blue;
+    transform: translate(70%, -20%);
+    transform: translateX(30%);
+    transform: translateY(-50%);
+    top: 30%;
+    transform: rotate(30deg);
+}
+
+.sec-dev {
+    background-color: brown;
+    height: 40vh;
+    transform: skewX(3deg);
+    transform: skewY(20deg);
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 15%;
+    /* overflow-x: scroll; */
+  }
+  
+  .sec-dev h2,
+  p {
+    transform: skewX(-3deg);
+    font-size: small;
+  }
+  
+  .sections {
+    width: 40%;
+    height: 10vh;
+    background-color: purple;
+  }
+  
+  .sec-dev::before {
+    content: " hello";
+    position: relative;
+    top: -20px;
+    z-index: 3;
+  }
+  
+  .sec-dev::after {
+    content: "just us";
+    position: relative;
+    top: -30px;
+    background-color: blue;
+  }

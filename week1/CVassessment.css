@@ -1,0 +1,75 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+div {
+  border-radius: 5px;
+}
+body {
+  background-image: none);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#header {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 10%;
+  padding-top: -5%;
+}
+
+#name {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 40%;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+#heading {
+  font-weight: bold;
+}
+
+.right table {
+  width: inherit;
+  height: 20rem;
+  
+}
+td {
+  text-align: justify;
+  width: 40rem;
+  object-fit: cover;
+}
+th {
+  text-align: left;
+}
+tr {
+  align-content: center;
+}
+h2 {
+  color: khaki;
+}
+.clear {
+  clear: both;
+}
+
+.right {
+  height: 50%;
+  width: 25%;
+  background-color: silver;
+  padding-bottom: 6%;
+  padding-top: 5%;
+  position:flex;
+  float: left;
+  margin-right: 2%;
+}
+
+section table {
+  border-style: outset;
+}
+section {
+  padding-top: 5%;
+  font: ;
+}

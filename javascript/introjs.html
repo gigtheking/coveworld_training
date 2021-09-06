@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>javascript</title>
+  </head>
+  <body>
+    <div>
+      <h2></h2>
+      <ul>
+        <li>this is list element</li>
+        <li>this is second list element</li>
+      </ul>
+      <p class="para"></p>
+      <section id="sec"></section>
+    </div>
+    <script>
+      //normal -> write all in lower case
+      //camelCasing -> start in lower case
+      //PascalCasing -> start in upper case
+
+      //if you save a file or content with "gideon" you can't get it by search "Gideon"
+
+      //variable
+      //3 way to define variable
+      // var, let, const
+
+      //without an equal to = you only declared a variable
+      var name;
+
+      //assigned
+      name = "king";
+
+      // hoisting -> reading code from the top to the bottom
+
+      //to assign a variable
+      var name = "gideon";
+      //console.log() is used to print variable to the browser inspector or terminal
+
+      console.log(name);
+      document.write(name);
+
+      // using let to declare a variable
+
+      let names = "bob";
+
+      names = "daddy";
+
+      console.log("name", names);
+
+      // using const to declare a variable
+
+      //const is declared whenever a variable does not have to change
+
+      const man = "is a boy";
+      console.log("man", man);
+
+      // dom manipulation -> is a way to add content to an elelment from javascript
+
+      // targeting the html element
+      const heading = document.querySelector("h2");
+      const params = document.querySelector(".para");
+      const section = document.getElementById("sec");
+      const list = document.querySelectorAll("ul li");
+
+      //   const liElement = document.getElementsByTagName("li");
+
+      // adding values to an html element
+      params.innerText = "this is a paragraph";
+      heading.innerText = "hello world";
+
+      // create an element
+      let h2Element = document.createElement("h2");
+      let pElement = document.createElement("p");
+      h2Element.innerText = "category";
+      pElement.innerText = "lorem  .....";
+
+      //   adding the created element to the section tag
+      section.appendChild(h2Element);
+      section.appendChild(pElement);
+
+      console.log(`section`, section);
+
+      // let res = (liElement.item(0).innerText = "bob");
+      //   console.log(`res`, res);
+      console.log("heading", heading);
+      let res = list.forEach((v) => console.log(`v`, v));
+      console.log(`res`, res);
+      console.log(`list`);
+
+      //   console.log(`liEement`, liElement);
+    </script>
+  </body>
+</html>

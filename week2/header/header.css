@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+    height: 12vh;
+    font-family: sans-serif;
+}
+
+
+.left-view{
+    text-transform: capitalize;
+    width: 20%;
+    color: white;
+}
+
+.left-view h3{
+    
+}
+
+.navbar{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end; 
+}
+
+.listwrapper{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.listwrapper a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.article {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.figure {
+    width: 20%;
+}
