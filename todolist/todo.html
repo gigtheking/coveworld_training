@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <form class="todo-form js-form">
+        <input 
+        autofocus
+        type="text" 
+        id="myInput"
+        placeholder="Title"
+        class="js-todo-input"
+        />
+        v<span onclick="newElement()" class="addBtn">Add</span>
+    </form>
+    </div>
+
+    <ul id="myUL">
+        <li></li>
+    </ul>
+    <script src="todo.js"></script>
+</body>
+</html>

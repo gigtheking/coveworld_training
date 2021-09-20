@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>td</title>
+    <link rel="stylesheet" href="td.css">
+</head>
+<body>
+        <div class="container">
+          <h1 class="app-title">To Do?</h1>
+          <ul class="todo-list js-todo-list"></ul>
+          
+          <div class="empty-state">
+            <!-- <svg class="checklist-icon"><use href="#checklist-icon"></use></svg> -->
+            <h2 class="empty-state__title">Add your first todo</h2>
+            <p class="empty-state__description">What do you want to get done today?</p>
+          </div>
+          
+          <form class="todo-form js-form">
+            <input 
+            autofocus 
+            type="text" 
+            aria-label="Enter a new todo item" 
+            placeholder="E.g. Learn fullstack" 
+            class="js-todo-input"
+            />
+          </form>
+        </div>
+      
+<script src="td.js"></script>
+</body>
+</html>
